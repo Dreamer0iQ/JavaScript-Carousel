@@ -1,0 +1,31 @@
+.currentSlide{
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.slide_indicators{
+    display: flex;
+    bottom: 5vh;
+    position: absolute;
+    justify-content: space-between;
+    left: 41%;
+}
+
+.main_block{
+    position: relative;
+    width: 1000px;
+}
+
+.slide_controllers{
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    padding-left: 25px;
+    width: 950px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
