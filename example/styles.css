@@ -29,3 +29,19 @@
     justify-content: space-between;
     cursor: pointer;
 }
+
+.prevSlide{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+}
+
+.nextSlide{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+}

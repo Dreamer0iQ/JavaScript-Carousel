@@ -1,5 +1,6 @@
 ## Simple carousel/slider with pure js/css
-u can try it with main file "script.js" I added comments near variables
+u can try it with main file "script.js" I added comments near variables. 
+If u want to add configuration file, then u need to add 2 scripts in main .html file (firstly config, then main script of carousel). I added example in the bottom
 
 ## Usage/Examples
 
@@ -23,6 +24,9 @@ html:
         <div class="nextSlide">→</div>
     </div>
 </div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
 }
 ```
 partly some of the styles setted by default with js, but its better to use file styles.css which was given in the example
